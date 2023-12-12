@@ -2,25 +2,26 @@
 
 ## Getting Started
 
-First, run the development server:
+To get started, you'll need to have [Node.js 18.17.0 or later](https://nodejs.org/en/) installed on your computer. If you haven't already installed them, visit their websites for download instructions.
+
+### Starting the server
+
+Run the following commands:
 
 ```bash
-pnpm dev
+npm install
+npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+These commands will install all the necessary dependencies and start the development server, respectively.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project includes several npm scripts for common tasks:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-
+- `pnpm dev`: Runs the app in development mode
+- `pnpm build`: Builds the app for production
+- `pnpm start`: Serves the built app
+- `pnpm lint`: Runs the linter
+- `pnpm format`: Formats code
+- `pnpm types`: Checks TypeScript types
