@@ -19,9 +19,9 @@ These commands will install all the necessary dependencies and start the develop
 
 This project includes several npm scripts for common tasks:
 
-- `pnpm dev`: Runs the app in development mode
-- `pnpm build`: Builds the app for production
-- `pnpm start`: Serves the built app
-- `pnpm lint`: Runs the linter
-- `pnpm format`: Formats code
-- `pnpm types`: Checks TypeScript types
+- `npm run dev`: Runs the app in development mode
+- `npm run build`: Builds the app for production
+- `npm run start`: Serves the built app
+- `npm run lint`: Runs the linter
+- `npm run format`: Formats code
+- `npm run types`: Checks TypeScript types
