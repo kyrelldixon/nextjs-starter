@@ -22,8 +22,8 @@ describe('Counter', () => {
     const user = userEvent.setup()
     render(<Counter />)
 
-    await user.click(screen.getByText('+'))
+    await user.click(screen.getByText('-'))
 
-    expect(screen.getByText('1')).toBeInTheDocument()
+    expect(screen.getByText('-1')).toBeInTheDocument()
   })
 })
